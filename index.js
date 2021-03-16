@@ -41,7 +41,7 @@ app.get('/pokemons', async (req, res) => {
             return item;
         })
     }
-    return res.json(retorno);
+    return res.json(retorno); 
 });
 
 app.get('/', (req,res) => {
